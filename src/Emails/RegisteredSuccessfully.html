@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Social</title>
+	</head>
+
+	<body>
+		<style>
+			* {
+				margin: 0px;
+				padding: 0px;
+				box-sizing: border-box;
+			}
+
+			html {
+				display: grid;
+				place-items: center;
+			}
+
+			body {
+				font-family: 'Google Sans', Roboto, RobotoDraft, Helvetica, Arial,
+					sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+					Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+				display: grid;
+				grid-auto-columns: 1fr;
+				grid-template-columns: 1fr;
+				grid-template-rows: auto auto auto auto;
+				gap: 1em 1em;
+				grid-template-areas:
+					'.'
+					'.'
+					'.'
+					'.';
+				max-width: 60rem;
+			}
+
+			.logo {
+				width: auto;
+				/* margin: auto; */
+				display: flex;
+				padding: 5px;
+				padding-top: 20px;
+				padding-bottom: 20px;
+				border-radius: 11px;
+			}
+
+			.logo__img {
+				width: 70px;
+				height: 70px;
+				border-radius: 10px;
+				margin-top: auto;
+				margin-bottom: auto;
+			}
+
+			.brand_name {
+				margin-top: auto;
+				margin-bottom: auto;
+				margin-left: 20px;
+				color: #000000dd;
+			}
+
+			.email {
+				display: grid;
+				height: 100%;
+				width: auto;
+				margin: 0px 5px;
+				background: #8a41ff23;
+				padding: 1.2rem;
+				border-radius: 12px;
+				box-shadow: 14px 20px 19px 2px #9100ff2e;
+			}
+
+			.email__divider {
+				width: 100%;
+				border: 0px;
+				height: 2px;
+				background: #b2c3f3;
+				margin-top: 1rem;
+				margin-bottom: 1rem;
+			}
+
+			.email__title {
+				color: #000000dd;
+				line-height: 1.6;
+				letter-spacing: 0.2px;
+			}
+
+			.ill__img {
+				width: 100%;
+				max-width: 400px;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 18px;
+				margin-bottom: 18px;
+			}
+
+			.email__otp {
+				color: #000000dd;
+				margin-top: 10px;
+				margin-bottom: 10px;
+				color: #514eff;
+			}
+
+			.email__message {
+				font-weight: 600;
+				letter-spacing: 0.2px;
+				color: #464646;
+				font-size: 0.9rem;
+				margin-bottom: 10px;
+				line-height: 1.65;
+			}
+
+			.footer_notice {
+				width: auto;
+				margin-top: 15px;
+				border-top: 2px solid #514eff;
+				padding-top: 15px;
+			}
+
+			.contact__notice {
+				color: #303030;
+				font-weight: 600;
+				font-size: 14px;
+				margin-top: 5px;
+				margin-bottom: 5px;
+			}
+			.copyright__notice {
+				color: #303030;
+				font-weight: 600;
+				font-size: 14px;
+				margin-top: 15px;
+				margin-bottom: 5px;
+			}
+		</style>
+		<div class="logo">
+			<img
+				src="https://i.ibb.co/6rcS2Bc/Logo.png"
+				alt="logo"
+				class="logo__img" />
+			<h1 class="brand_name">Kurukshetra Esports Pvt. Ltd</h1>
+		</div>
+		<div class="email">
+			<h2 class="email__title">
+				You have Registered Successfully for Kurukshetra FREEFIRE championship
+				Season 1
+			</h2>
+			<img
+				src="https://i.ibb.co/5k84Xd6/illstration-2x.png"
+				alt="logo"
+				class="ill__img" />
+			<strong class="email__message">
+				We will soon start our first round...
+				<br />
+				You will be Notified for that.
+				<br />
+				Till then Stay tuned and enjoy our discord community.
+			</strong>
+			<div class="footer_notice">
+				<div class="footer__main">
+					<div class="contact__notice">
+						<strong>Email: </strong> support@kurukshetraesports.com
+					</div>
+					<div class="copyright__notice">
+						Kurukshetra Esports Pvt. Ltd <strong>©</strong> 2022
+					</div>
+				</div>
+				<div class="footer__social">
+					<a href="" class="social__link"></a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
